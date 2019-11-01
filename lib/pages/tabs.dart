@@ -102,9 +102,9 @@ class _TabsPageState extends State<TabsPage> {
         ),
         body:TabBarView(
           children: <Widget>[
-            ListPage(),
-            Text('112'),
-            Text('112'),
+            ListPage(mt: 'in_theaters',),
+            ListPage(mt:'coming_soon'),
+            ListPage(mt: 'top250',),
           ],
         ) ,
       ),
